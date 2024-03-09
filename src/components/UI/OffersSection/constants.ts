@@ -4,12 +4,12 @@ import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
 export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
+  'Elevate Your Company\'s Cybersecurity',
+  'With NullifyOne\'s product line.',
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+  'NullifyOne offers a variety of cybersecurity products,',
+  "expecially when your company needs it the most.",
 ];
 
 // For mobile

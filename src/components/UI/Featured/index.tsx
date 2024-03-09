@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Video from 'next-video';
+import big_banner1 from '../../../../videos/Watch Dogs 2 Main Menu Background Video.mp4';
 import big_banner from '../../../../public/images/big_banner.png';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
 import ParallaxText from '@/components/Common/ParallaxImages';
@@ -35,23 +36,24 @@ const Featured = () => {
             whileInView="visible"
             viewport={{ amount: 0.25, once: true }}
           >
-            {isMobile ? (
+            <Video src={big_banner1} />;
+            {/* {isMobile ? (
               <Image
                 src={featured_mobile_banner}
                 alt="featured_mobile_banner"
                 fill
               />
             ) : (
-              <Image src={big_banner} alt="big_banner" fill />
-            )}
+              <Image src={big_banner1} alt="big_banner" fill />
+            )} */}
           </Div>
         </ImageContainer>
-        <h2>Featured and Seen in</h2>
+        {/* <h2>Featured and Seen in</h2>
         <ParallaxImages>
           <ParallaxText baseVelocity={-4}>
             <Image src={companies_image} alt="comapanies" />
           </ParallaxText>
-        </ParallaxImages>
+        </ParallaxImages> */}
       </Inner>
     </Wrapper>
   );

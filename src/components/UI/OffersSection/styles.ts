@@ -20,7 +20,7 @@ export const Header = styled.header`
   align-items: center;
   gap: 1.5rem;
   text-align: center;
-  max-width: 56rem;
+  max-width: 73rem;
   margin: 0 auto 6.75rem;
 
   h1 {
