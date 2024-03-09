@@ -43,23 +43,23 @@ const Footer = () => {
   return (
     <Wrapper>
       <Inner>
-        <FooterLogo>
+        {/* <FooterLogo>
           <Image src={raft_footer_logo} alt="raft_footer_logo" />
-        </FooterLogo>
+        </FooterLogo> */}
         <FooterMainContent>
           <FooterMiddle>
-            <QRContainer>
+            {/* <QRContainer>
               <QRImageCtn>
                 <Image src={qr_code} alt="qr_code" />
               </QRImageCtn>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
+                <p>Scan to learn more about our company</p>
                 <IconCtn>
                   <Image src={ic_google_playstore} alt="playstore icon" />
                   <Image src={ic_baseline_apple} alt="apple icon" />
                 </IconCtn>
               </TextCtn>
-            </QRContainer>
+            </QRContainer> */}
             <FooterNavigation>
               {linksArr.map((l, i) => (
                 <GridColumn key={i}>
@@ -74,13 +74,13 @@ const Footer = () => {
             </FooterNavigation>
           </FooterMiddle>
           <FooterBottom>
-            <Translator>
+            {/* <Translator>
               <h3>English (United Kingdom)</h3>
               <Image src={ic_chevron_down} alt="chevron down" />
-            </Translator>
+            </Translator> */}
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              Raft Corp, LLC.
+              NullifyOne Corporation
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>

@@ -6,6 +6,7 @@ export const GlobalStyles = styled.createGlobalStyle`
   :root {
     --Background: #070606;
     --white: #fff;
+    --orange: #f2850d;
     --light-gray: #dcdcdc;
     --link-color: #bdbdbd;
     --green: #2b892e;
@@ -23,9 +24,9 @@ export const GlobalStyles = styled.createGlobalStyle`
   body {
     max-width: 100vw;
     overflow-x: hidden;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'afacad', sans-serif;
     background-color: var(--Background);
-    color: var(--white);
+    color: var(--orange);
     scroll-snap-type: y mandatory;
 
     &::-webkit-scrollbar {

@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 
 export const Wrapper = styled.div`
   background: var(--Background);
-  color: var(--white);
+  color: var(--orange);
   position: fixed;
   height: 100vh;
   width: 100vw;

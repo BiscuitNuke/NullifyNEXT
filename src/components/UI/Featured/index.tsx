@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Video from 'next-video';
 import big_banner from '../../../../public/images/big_banner.png';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
 import ParallaxText from '@/components/Common/ParallaxImages';

@@ -20,7 +20,7 @@ export const Span = styled(motion.span)`
   display: inline-block;
   white-space: nowrap;
   color: var(--link-color);
-  font-size: 1rem;
+  font-size: 1.55rem;
   font-weight: 400;
 
   @media (max-width: 768px) {

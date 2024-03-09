@@ -1,13 +1,13 @@
 // For desktop
-export const phrases = ['Building the future of', 'edging.'];
+export const phrases = ['Building the future of', 'AI-Driven Cybersecurity'];
 export const paragraphPhrases = [
-  "Experience the future of edging with BEN. We're here to",
-  'edge your financial journey.',
+  "Experience the future of on-premise AI-driven",
+   "cybersecurity solutions with NullifyOne.",
 ];
 
 // For mobile
-export const mobilePhrases = ['Building the future', 'of banking'];
+export const mobilePhrases = ['Building the future of', 'AI-Driven Cybersecurity'];
 export const mobileParagraphPhrases = [
-  "Experience the future of banking with RAFT. We're",
-  'here to empower your financial journey.',
+  "Experience the future of on-premise AI-driven",
+   "cybersecurity solutions with NullifyOne.",
 ];

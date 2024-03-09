@@ -17,10 +17,10 @@ const HeroSection = () => {
   return (
     <Wrapper>
       <Inner>
-        <Pill>
+        {/* <Pill>
           <span>Introducing Raft cards</span>
           <Image src={ic_chevron_right} alt="chevron-right" />
-        </Pill>
+        </Pill> */}
         <HeroTextContainer>
           {isMobile ? (
             <>

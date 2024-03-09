@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { styled } from 'styled-components';
 
 export const Wrapper = styled.section`
-  padding: 1rem 0;
+  padding: 1.25rem 0;
   border-bottom: 0.5px solid #3d3d3d;
 
   @media (max-width: 768px) {
@@ -25,7 +25,7 @@ export const LogoContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 200%;
   }
 `;
 
@@ -39,7 +39,7 @@ export const BurgerMenu = styled.div`
 
     div {
       position: absolute;
-      background: var(--emerald);
+      background: var(--orange);
       width: '250px';
       height: '300px';
       border-radius: 25px;
@@ -50,7 +50,7 @@ export const BurgerMenu = styled.div`
     img {
       position: relative;
       z-index: 2;
-      object-fit: cover;
+      object-fit: fit;
     }
   }
 `;
