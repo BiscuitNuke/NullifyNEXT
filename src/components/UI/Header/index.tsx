@@ -10,7 +10,7 @@ import {
   AbsoluteLinks,
   BurgerMenu,
 } from './styles';
-import nullify from '../../../../public/svgs/nullify.svg';
+import nullify from '../../../../public/n1n/N1SO.svg';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -24,7 +24,9 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={nullify} alt="raft_logo" priority />
+          <a href="/">
+          <Image src={nullify} alt="n1" priority  />
+          </a>
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
@@ -35,14 +37,16 @@ const Header = () => {
           </BurgerMenu>
         </LogoContainer>
         <Nav className={isOpen ? 'active' : ''}>
-          {links.map((link, i) => (
-            <AnimatedLink key={i} title={link.linkTo} />
-          ))}
+        {links.map((link, i) => (
+          <a href={link.linkTo} key={i}>
+            <AnimatedLink title={link.linkTo} />
+          </a>
+        ))}
         </Nav>
-        {/* <CallToActions className={isOpen ? 'active' : ''}>
-          <AnimatedLink title="Login" />
+        <CallToActions className={isOpen ? 'active' : ''}>
+          {/* <AnimatedLink title="Login" /> */}
           <GetStartedButton padding="0.5rem 0.75rem" />
-        </CallToActions> */}
+        </CallToActions>
       </Inner>
     </Wrapper>
   );

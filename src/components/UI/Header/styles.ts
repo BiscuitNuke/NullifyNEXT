@@ -11,13 +11,17 @@ export const Wrapper = styled.section`
   }
 `;
 
+
 export const Inner = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  max-width: 1440px;
+  max-width: 2040px;
   margin: 0 auto;
+  @media (max-width: 1500px) {
+    width: 70%;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -26,6 +30,7 @@ export const LogoContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 200%;
+
   }
 `;
 

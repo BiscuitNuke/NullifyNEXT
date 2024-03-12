@@ -24,7 +24,8 @@ export const GlobalStyles = styled.createGlobalStyle`
   body {
     max-width: 100vw;
     overflow-x: hidden;
-    font-family: 'afacad', sans-serif;
+    // font-family: 'afacad', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     background-color: var(--Background);
     color: var(--orange);
     scroll-snap-type: y mandatory;

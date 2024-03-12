@@ -9,7 +9,7 @@ import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 const linksArr = [
   {
     title: 'About us',
-    links: ['Our Company', 'Careers', 'Press kits'],
+    links: ['/ About', '/ Careers', '/ Press kits'],
   },
   {
     title: 'Legal',

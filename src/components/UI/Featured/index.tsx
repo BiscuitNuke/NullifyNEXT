@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Video from 'next-video';
 import big_banner1 from '../../../../videos/Watch Dogs 2 Main Menu Background Video.mp4';
-import big_banner from '../../../../public/images/big_banner.png';
+import big_banner from '../../../../public/N1IMG/COMPOUND2.jpg';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
 import ParallaxText from '@/components/Common/ParallaxImages';
 import companies_image from '../../../../public/images/companies.png';
@@ -36,16 +36,16 @@ const Featured = () => {
             whileInView="visible"
             viewport={{ amount: 0.25, once: true }}
           >
-            <Video src={big_banner1} />;
-            {/* {isMobile ? (
+            {isMobile ? (
               <Image
-                src={featured_mobile_banner}
+                src={big_banner}
                 alt="featured_mobile_banner"
                 fill
               />
             ) : (
-              <Image src={big_banner1} alt="big_banner" fill />
-            )} */}
+              <Image src={big_banner} alt="big_banner" fill />
+              // <Video src={big_banner1}/>
+            )}
           </Div>
         </ImageContainer>
         {/* <h2>Featured and Seen in</h2>

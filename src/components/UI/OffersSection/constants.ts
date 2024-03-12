@@ -14,9 +14,8 @@ export const desktopParagraphPhrase = [
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  'NullifyOne offers a variety of cybersecurity products,',
+  "expecially when your company needs it the most.",
 ];
 
 export const offers = [
